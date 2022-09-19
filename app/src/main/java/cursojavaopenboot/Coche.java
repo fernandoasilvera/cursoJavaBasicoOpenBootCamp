@@ -24,7 +24,7 @@ public class Coche {
     }
 
     public void acelerar(Integer cantidad){
-        if(cantidad > 0 && cantidad <=120){
+        if(cantidad > 0 && cantidad <=1000){
             this.velocidad =cantidad;
             System.out.println(this.velocidad);
         }
